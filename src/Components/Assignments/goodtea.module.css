@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.body{
+    height: 80px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    
+    
+    
+}
+.body>#logo{
+    height: 80px;
+    width: 20%;
+    background-color:#f4ece6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body>#navbar{
+    height: 80px;
+    width: 50%;
+    background-color: #f4ece6;
+
+
+}
+.body>#searchbar{
+    height: 80px;
+    width: 30%;
+    background-color: #f4ece6;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+
+}
+
+/* logo */
+.body>#logo>img{
+    height: 50px;
+    padding-left: 70px;
+    /* width: 80px; */
+}
+.body>#navbar>ul>li>a{
+    text-decoration: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    transition: border-bottom-color 0.4s ease-in-out;
+    border-bottom: 2px solid transparent;
+
+}
+.body>#navbar>ul>li{
+    list-style-type: none;
+    margin-left: 34px;
+    
+}
+.body>#navbar>ul{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    /* justify-content: center; */
+    
+    
+   
+}
+
+/* searchbar */
+.body>#searchbar>input{
+    height: 44px;
+    width: 200px;
+    padding-left: 63px;
+    border: 0px;
+    border-radius: 1px;
+
+}
+.body>#searchbar>a>i{
+    margin-left: 20px;
+}
+
+/* heading */
+#heading{
+    display: flex;
+    justify-content: center;
+    height: 34px;
+    align-items: center;
+    background-color: #F07D69;
+}
+#img{
+    height: 100vh;
+    background-image: url(./images/780028.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+}
+.body>#navbar>ul>li>a:hover{
+    /* color: rgb(182, 181, 181); */
+    border-bottom-color: #000000;
+    
+    
+
+}
+.body>#searchbar>input::placeholder{
+    font-weight: bold;
+}
+.body>#searchbar>input:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+
